@@ -1,1 +1,18 @@
+# 1. Initialiser le dossier comme un projet Git
+git init
 
+# 2. Ajouter tous vos fichiers (n'oubliez pas le point à la fin)
+git add .
+
+# 3. Valider l'ajout des fichiers avec un message
+git commit -m "Ajout des fichiers de mon portfolio BTS SIO"
+
+# 4. Créer la branche principale
+git branch -M main
+
+# 5. Lier votre dossier local à votre dépôt GitHub en ligne 
+# (REMPLACEZ le lien ci-dessous par celui que GitHub vous a donné à l'étape 2)
+git remote add origin https://github.com/VOTRE_PSEUDO/portfolio.git
+
+# 6. Envoyer le tout sur GitHub
+git push -u origin main
