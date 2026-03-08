@@ -12,7 +12,7 @@ git branch -M main
 
 # 5. Lier votre dossier local à votre dépôt GitHub en ligne 
 # (REMPLACEZ le lien ci-dessous par celui que GitHub vous a donné à l'étape 2)
-git remote add origin https://github.com/VOTRE_PSEUDO/portfolio.git
+git remote add origin https://github.com/PAQUIN-MATHEO/portfolio.git
 
 # 6. Envoyer le tout sur GitHub
 git push -u origin main
